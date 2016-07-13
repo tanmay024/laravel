@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+							/*CRUD Application*/
+
+
+Route::resource('/posts', 'PostsController');
+
